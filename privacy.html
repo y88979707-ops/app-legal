@@ -1,354 +1,139 @@
-
-<style>
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    line-height: 1.7;
-    background: #ffffff;
-  }
-  h1, h2 {
-    margin-top: 30px;
-  }
-</style>
-
-Privacy Policy — Roadvera
-
-Last updated: 19 June 2026
-App: Roadvera (iOS bundle ID: com.roadvera.app)
-Operator: Yevhenii Bobyr, Austria
-Contact: gron.support@gmail.com
-
-
-
-1. Overview
-
-This Privacy Policy describes how  (“we”, “us”, “our”) collects and uses your information when you use our mobile app to prepare for the Austrian driving theory exam.
-
-We do not intentionally collect more data than necessary to provide the service.
-
-
-
-2. Information we collect
-
-Account information
-
-When you create an account or sign in, we may collect:
-
-
-
-
-
-Email address (email sign-up, or shared by Google / Apple when you use their sign-in)
-
-
-
-Account ID (Firebase user identifier)
-
-
-
-Authentication data from Google Sign-In or Sign in with Apple (tokens managed by Firebase Authentication)
-
-We do not require your real name for basic use.
-
-Learning and app progress
-
-To provide training, streaks, achievements, exam history, and sync across devices, we store:
-
-
-
-
-
-Questions answered (correct/wrong), mistake queues, points, energy, streaks
-
-
-
-Exam simulation results and training statistics
-
-
-
-Theory library progress, settings, and preferences stored in the app
-
-When you are signed in, this data is stored on your device and synced to Google Firebase Firestore linked to your account. If you use the app without signing in, progress may remain on your device only.
-
-Purchases
-
-If you buy Roadvera Pro, Apple processes payment via In-App Purchase. We receive confirmation of your subscription or lifetime purchase and store Pro status (for example isPro and plan type) in Firestore. We do not receive or store your full payment card or bank details.
-
-Support
-
-If you contact us by email, we receive the information you send (email address and message content).
-
-Technical data
-
-Our infrastructure providers (including Google Firebase) may process limited technical data needed to operate the service — for example device type, app version, and network-related metadata. We do not use third-party advertising or analytics SDKs in the current app version.
-
-What we do not collect
-
-
-
-
-
-We do not sell your personal data.
-
-
-
-We do not use third-party advertising analytics in the current app version.
-
-
-
-We do not collect precise location for the app’s core features.
-
-
-
-3. Authentication
-
-You may sign in using:
-
-
-
-
-
-Email and password
-
-
-
-Google Sign-In (provided by Google)
-
-
-
-Sign in with Apple (provided by Apple)
-
-These providers may share your email and account identifier with us according to your choices and their policies.
-
-
-
-4. How we use data
-
-We use your data to:
-
-
-
-
-
-Create and manage your account
-
-
-
-Provide access to the app and sync your progress
-
-
-
-Process and validate subscriptions and lifetime purchases
-
-
-
-Improve app performance, reliability, and user experience
-
-
-
-Respond to support requests
-
-
-
-Comply with legal obligations
-
-Legal basis (GDPR / EEA): where applicable, we process data based on:
-
-
-
-
-
-Contract performance (providing the app and Pro features you purchase)
-
-
-
-Legitimate interests (security, fraud prevention, service improvement)
-
-
-
-Consent where required (for example optional communications)
-
-
-
-5. Subscriptions and payments
-
-We offer:
-
-
-
-
-
-Weekly subscription (auto-renewable)
-
-
-
-Monthly subscription (auto-renewable)
-
-
-
-Lifetime purchase (one-time)
-
-Payments on iOS are processed by Apple. We do not store payment card details. Apple may retain purchase records under their own policies.
-
-
-
-6. Third-party services
-
-We use:
-
-
-
-
-
-
-
-Service
-
-
-
-Purpose
-
-
-
-
-
-Google Firebase (Authentication, Firestore)
-
-
-
-Sign-in, cloud sync, Pro status
-
-
-
-
-
-Google Sign-In
-
-
-
-Optional login
-
-
-
-
-
-Sign in with Apple
-
-
-
-Optional login
-
-
-
-
-
-Apple In-App Purchase
-
-
-
-Subscriptions and lifetime purchase
-
-These providers process data according to their own privacy policies:
-
-
-
-
-
-Firebase Privacy
-
-
-
-Google Privacy Policy
-
-
-
-Apple Privacy Policy
-
-We do not sell personal information to third parties.
-
-
-
-7. Data storage and international transfers
-
-Your data is stored on secure cloud infrastructure (including Firebase / Google Cloud). Data may be processed outside your country, including in the United States. Google describes safeguards in their documentation.
-
-
-
-8. Retention
-
-
-
-
-
-Account and progress data: until you delete your account or ask us to delete it
-
-
-
-Support emails: as long as needed to resolve your request
-
-
-
-Purchase records: as retained by Apple and as needed to validate Pro access
-
-
-
-9. Your rights
-
-Depending on your location, you may have the right to:
-
-
-
-
-
-Access your data
-
-
-
-Correct your data
-
-
-
-Request deletion of your data
-
-
-
-Object to or restrict certain processing
-
-
-
-Data portability (where applicable)
-
-
-
-Lodge a complaint with your local data protection authority (EEA/UK)
-
-Delete in the app: Profile → Delete account permanently deletes your Firebase authentication user and associated app data we control.
-
-Contact us: gron.support@gmail.com for other privacy requests.
-
-
-
-10. Children
-
-Roadvera is intended for users preparing for a driving license, typically aged 16+. We do not knowingly collect data from children under 13 (or under 16 without parental consent where applicable). Contact us if you believe a child has provided data.
-
-
-
-11. Data security
-
-We implement reasonable security measures (encrypted transport HTTPS, Firebase security rules, secure credential handling). No system is completely secure.
-
-
-
-12. Changes
-
-We may update this Privacy Policy from time to time. We will post the new version at this URL and update the “Last updated” date. Continued use of the app after changes means acceptance of the updated policy.
-
-
-
-13. Contact
-
-Email: gron.support@gmail.com
-Operator: Yevhenii Bobyr, Austria
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Roadvera</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 24px 20px 48px;
+      color: #0f172a;
+      background: #f8fafc;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { color: #e2e8f0; background: #0b0f1a; }
+      a { color: #7dd3fc; }
+      th, td { border-color: #334155; }
+    }
+    h1 { font-size: 1.75rem; margin-bottom: 0.25rem; }
+    h2 { font-size: 1.15rem; margin-top: 2rem; }
+    .meta { color: #64748b; font-size: 0.9rem; margin-bottom: 2rem; }
+    a { color: #0369a1; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.92rem; margin: 1rem 0; }
+    th, td { border: 1px solid #cbd5e1; padding: 8px 10px; text-align: left; vertical-align: top; }
+    th { background: rgba(148, 163, 184, 0.15); }
+    footer { margin-top: 3rem; font-size: 0.85rem; color: #64748b; }
+    nav { margin-bottom: 1.5rem; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <nav><a href="../">← Roadvera legal</a></nav>
+  <h1>Privacy Policy</h1>
+  <p class="meta">
+    <strong>Roadvera</strong> · Last updated: 1 July 2026<br />
+    Developer: Inna Shevchenko, Austria · <a href="mailto:gron.support@gmail.com">gron.support@gmail.com</a>
+  </p>
+
+  <h2>1. Overview</h2>
+  <p>This Privacy Policy explains how <strong>Roadvera</strong> (“we”, “us”, “our”) collects, uses, and protects your information when you use our mobile app to prepare for driving theory exams.</p>
+  <p>Roadvera is currently offered primarily to users in <strong>Austria</strong>. We plan to expand availability within <strong>Europe</strong> over time. This policy is written for users in the European Economic Area (EEA) and elsewhere, with rights under the <strong>General Data Protection Regulation (GDPR)</strong> where applicable.</p>
+  <p>We collect only what we need to run the app, sync your progress, and manage purchases.</p>
+
+  <h2>2. Who is responsible for your data?</h2>
+  <p><strong>Data controller:</strong> Inna Shevchenko (individual developer), Austria<br />
+  <strong>Email:</strong> <a href="mailto:gron.support@gmail.com">gron.support@gmail.com</a></p>
+  <p>There is no separate registered company name for Roadvera at this time.</p>
+
+  <h2>3. Information we collect</h2>
+  <h3>3.1 Account and authentication</h3>
+  <p>When you create an account or sign in, we may process:</p>
+  <ul>
+    <li><strong>Email address</strong> (if you register with email/password, or if Google / Apple shares it with us)</li>
+    <li><strong>Firebase user ID</strong> (a unique account identifier)</li>
+    <li><strong>Authentication tokens</strong> managed by <strong>Firebase Authentication</strong></li>
+    <li><strong>Sign-in method</strong> (email, Google, or Apple)</li>
+  </ul>
+  <p>You may also use the app in <strong>guest mode</strong> without signing in. In that case, progress may stay on your device only and is not synced to the cloud.</p>
+  <p><strong>Sign-in options:</strong> email and password, <strong>Google Sign-In</strong> (Google LLC), and <strong>Sign in with Apple</strong> (Apple Inc.).</p>
+
+  <h3>3.2 Learning progress and app data</h3>
+  <p>We store training progress, exam results, theory library progress, streaks, points, mistakes, achievements, and app settings. When signed in, this data is synced to <strong>Google Cloud Firestore</strong> (Firebase) linked to your account.</p>
+
+  <h3>3.3 Purchases (Roadvera Pro)</h3>
+  <p>On <strong>iOS</strong>, <strong>Apple In-App Purchase</strong> processes payment. We receive purchase confirmation and store Pro status in Firestore. We do <strong>not</strong> store your full card or bank details. <strong>Stripe</strong> may process payments on other platforms where enabled.</p>
+
+  <h3>3.4 Advertising (optional)</h3>
+  <p>For <strong>free (non-Pro) users</strong>, we may show banner ads through <strong>Google AdMob</strong> when enabled. Pro users do not see these banners.</p>
+
+  <h3>3.5 Support</h3>
+  <p>If you email us, we receive your email address and message content.</p>
+
+  <h3>3.6 Technical data</h3>
+  <p><strong>Firebase</strong> and <strong>Google Cloud</strong> may process limited technical data (device type, OS, app version, IP address) needed to operate the service.</p>
+
+  <h3>3.7 What we do not do</h3>
+  <ul>
+    <li>We do <strong>not</strong> sell your personal data.</li>
+    <li>We do <strong>not</strong> use precise location for core features.</li>
+    <li>We do <strong>not</strong> access contacts, photos, or microphone for core functionality.</li>
+  </ul>
+
+  <h2>4. How we use your information</h2>
+  <p>We use data to provide the app, sync progress, manage Pro access, show optional ads to free users, respond to support, maintain security, and comply with law.</p>
+  <p><strong>GDPR legal bases:</strong> contract performance, legitimate interests (security), consent where required, and legal obligation.</p>
+
+  <h2>5. Third-party services</h2>
+  <table>
+    <thead><tr><th>Service</th><th>Purpose</th></tr></thead>
+    <tbody>
+      <tr><td>Google Firebase</td><td>Auth, Firestore sync, Cloud Functions, account deletion</td></tr>
+      <tr><td>Google Sign-In</td><td>Optional login</td></tr>
+      <tr><td>Sign in with Apple</td><td>Optional login</td></tr>
+      <tr><td>Apple In-App Purchase</td><td>iOS subscriptions and lifetime purchase</td></tr>
+      <tr><td>Stripe</td><td>Optional payments on supported platforms</td></tr>
+      <tr><td>Google AdMob</td><td>Optional banner ads for free users</td></tr>
+    </tbody>
+  </table>
+  <p>
+    <a href="https://firebase.google.com/support/privacy">Firebase privacy</a> ·
+    <a href="https://policies.google.com/privacy">Google privacy</a> ·
+    <a href="https://www.apple.com/legal/privacy/">Apple privacy</a> ·
+    <a href="https://stripe.com/privacy">Stripe privacy</a>
+  </p>
+
+  <h2>6. Storage and international transfers</h2>
+  <p>Data is stored on <strong>Google Cloud / Firebase</strong>. Backend functions may run in <strong>europe-west1</strong>. Data may be processed outside your country, including the United States, with safeguards described by Google.</p>
+
+  <h2>7. Retention</h2>
+  <p>Account and progress data are kept until you delete your account. Support emails are kept as needed. Purchase records may be retained by Apple, Stripe, and as required by law.</p>
+
+  <h2>8. Your rights (GDPR / EEA)</h2>
+  <p>You may have rights to access, rectify, erase, restrict, object, port data, and complain to a supervisory authority.</p>
+  <p>In Austria: <strong>Österreichische Datenschutzbehörde (DSB)</strong> — <a href="https://www.dsb.gv.at">www.dsb.gv.at</a></p>
+  <p><strong>Delete in app:</strong> Profile → Delete account.</p>
+  <p><strong>Contact:</strong> <a href="mailto:gron.support@gmail.com">gron.support@gmail.com</a></p>
+
+  <h2>9. Children</h2>
+  <p>Roadvera is intended for learners typically aged <strong>16+</strong>. We do not knowingly collect data from children under <strong>13</strong>.</p>
+
+  <h2>10. Security</h2>
+  <p>We use HTTPS, Firebase security rules, and reasonable organisational measures. No system is completely secure.</p>
+
+  <h2>11. Changes</h2>
+  <p>We may update this policy. The “Last updated” date will change. Continued use means acceptance.</p>
+
+  <h2>12. Contact</h2>
+  <p><strong>Inna Shevchenko</strong>, Austria<br />
+  <a href="mailto:gron.support@gmail.com">gron.support@gmail.com</a></p>
+
+  <footer>
+    <p><a href="../terms/">Terms of Use</a> · Bundle ID: com.roadvera.app</p>
+    <p><em>Not legal advice.</em></p>
+  </footer>
+</body>
+</html>
