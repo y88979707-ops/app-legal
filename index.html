@@ -1,42 +1,49 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>App Legal</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roadvera — Legal</title>
   <style>
+    :root { color-scheme: light dark; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-      background: #f9f9fb;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 48px 20px;
+      color: #0f172a;
+      background: #f8fafc;
       text-align: center;
-      padding: 60px 20px;
     }
-    h1 {
-      font-size: 32px;
-      margin-bottom: 40px;
+    @media (prefers-color-scheme: dark) {
+      body { color: #e2e8f0; background: #0b0f1a; }
+      a { color: #7dd3fc; }
+      .card { background: #1e293b; border-color: #334155; }
     }
-    a {
+    h1 { font-size: 1.5rem; }
+    p { color: #64748b; }
+    a { color: #0369a1; text-decoration: none; font-weight: 600; }
+    .links { display: flex; flex-direction: column; gap: 12px; margin-top: 2rem; }
+    .card {
       display: block;
-      margin: 15px auto;
-      width: 220px;
-      padding: 14px;
-      text-decoration: none;
-      color: white;
-      background: black;
-      border-radius: 10px;
-      font-size: 16px;
-      transition: 0.2s;
+      padding: 16px 20px;
+      border: 1px solid #cbd5e1;
+      border-radius: 12px;
+      background: #fff;
     }
-    a:hover {
-      opacity: 0.8;
-    }
+    .card:hover { opacity: 0.9; }
   </style>
 </head>
 <body>
-
-<h1>App Legal</h1>
-
-<a href="privacy.html">Privacy Policy</a>
-<a href="terms.html">Terms of Service</a>
-
+  <h1>Roadvera</h1>
+  <p>Legal documents · Inna Shevchenko, Austria</p>
+  <div class="links">
+    <a class="card" href="privacy/">Privacy Policy</a>
+    <a class="card" href="terms/">Terms of Use</a>
+  </div>
+  <p style="margin-top: 2rem; font-size: 0.85rem;">
+    <a href="mailto:gron.support@gmail.com">gron.support@gmail.com</a>
+  </p>
 </body>
 </html>
